@@ -11341,7 +11341,7 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(27rem + 72px);
   padding-bottom: 7rem;
   background-image:  url("../assets/02.jpeg");
   /* background: linear-gradient(90deg, rgba(255,255,255,0.2)0%, rgba(255,255,255,0.1), url("../assets/img/01.jpg")); */
@@ -11354,8 +11354,9 @@ header.masthead {
 header.mastheadex {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(27rem + 72px);
   padding-bottom: 7rem;
+  
   background-image:  url("../assets/d8.jpg");
   /* background: linear-gradient(90deg, rgba(255,255,255,0.2)0%, rgba(255,255,255,0.1), url("../assets/img/01.jpg")); */
   background-repeat: no-repeat;
@@ -11365,12 +11366,14 @@ header.mastheadex {
 }
 header.mastheadex .masthead-content .masthead-heading {
   font-size: 4rem;
+  color: #000;
 }
+
 
 header.mastheadse {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(27rem + 72px);
   padding-bottom: 7rem;
   background-image:  url("../assets/d9.jpg");
   /* background: linear-gradient(90deg, rgba(255,255,255,0.2)0%, rgba(255,255,255,0.1), url("../assets/img/01.jpg")); */
@@ -11386,7 +11389,7 @@ header.mastheadse .masthead-content .masthead-heading {
 header.mastheadrdv {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(11rem + 72px);
   padding-bottom: 7rem;
   background-image:  url("../assets/d7.jpg");
   /* background: linear-gradient(90deg, rgba(255,255,255,0.2)0%, rgba(255,255,255,0.1), url("../assets/img/01.jpg")); */
@@ -11410,6 +11413,11 @@ header.masthead .masthead-content .masthead-heading {
 }
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+}
+header.mastheadex .masthead-content .masthead-subheading {
+  font-size: 3rem;
+  color: #000;
+  position: ;
 }
 header.masthead .bg-circle {
   z-index: 0;
@@ -11453,4 +11461,12 @@ header.masthead .bg-circle-4 {
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
   }
+}
+
+.bi {
+  position: relative;
+  left: 1050px;
+  top: -70px;
+  color: white;
+  
 }
